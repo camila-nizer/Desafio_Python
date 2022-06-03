@@ -17,7 +17,7 @@ for p in comclassecallout:
 		temanexo.append(a.get('href'))
 		nomearquivos.append(texto)
 
-pastaanexos= "C:/Users/camil/Downloads/anexos/"
+pastaanexos= "C:/anexos/"
 if not os.path.exists(pastaanexos):
 	os.makedirs(pastaanexos)
 
